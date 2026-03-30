@@ -1,0 +1,5 @@
+Mar 31 08:00:01 my-server INFO: System boot complete.
+Mar 31 08:05:22 my-server INFO: User 'admin' logged in.
+Mar 31 08:10:05 my-server ERROR: Database connection failed (Timeout).
+Mar 31 08:15:30 my-server WARNING: High CPU usage detected (85%).
+Mar 31 08:20:12 my-server CRITICAL: Kernel Panic - Memory leak in module X.
