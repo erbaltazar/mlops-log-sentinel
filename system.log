@@ -6,3 +6,6 @@ Apr 06 21:10:00 my-server CRITICAL: Temperature High
 Apr 06 21:10:00 my-server CRITICAL: Temperature High
 Apr 06 21:10:00 my-server CRITICAL: Temperature Slightly high
 Apr 06 21:11:00 my-server CRITICAL: Temperature Slightly high
+Apr 06 21:11:00 my-server ERROR: Temperature Slightly high
+Apr 21 07:00:00 my-server CRITICAL: Sentinel Test Successful
+[INFO] Connection stable - WiFi detected
