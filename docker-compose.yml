@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sentinel:
+    build: .
+    container_name: sentinel-live
+    # Fixes the buffering issue automatically without needing 'python -u'
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=Asia/Tokyo
+    volumes:
+      - .:/app
+    restart: unless-stopped
